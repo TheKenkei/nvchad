@@ -26,11 +26,13 @@ return {
         cmd = { "TmuxNavigateLeft", "TmuxNavigateDown", "TmuxNavigateUp", "TmuxNavigateRight", "TmuxNavigatePrevious" },
     },
     {
+        { import = "nvchad.blink.lazyspec" },
+
         "NvChad/nvcommunity",
         { import = "nvcommunity.diagnostics.trouble" },
 
         -- Scrollbar right
-        { import = "nvcommunity.editor.satellite" },
+        -- { import = "nvcommunity.editor.satellite" },
 
         { import = "nvcommunity.editor.treesittercontext" },
 
